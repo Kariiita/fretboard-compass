@@ -31,6 +31,8 @@ npm run build    # 产出单文件 dist/index.html
 
 `npm run build` 会把 JS 和 CSS 全部内联进 `dist/index.html`。这个文件可以直接双击打开，不需要服务器，适合本地离线使用或拷贝给别人。
 
+推送到 `main` 后，GitHub Actions 会自动运行测试、构建，并把单文件产物发布到 GitHub Pages。
+
 ## 技术栈
 
 Vite 5 + React 18 + TypeScript + Zustand，手写 CSS，原生 SVG 渲染指板，Web Audio 合成声音，Vitest 做测试。
