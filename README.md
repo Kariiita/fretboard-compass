@@ -4,6 +4,8 @@
 
 选一个调，看见整块指板上的调内音；选一个和弦，看见所有可弹的指型；点几个音，反推出这是什么和弦；再顺着和弦进行，看导音线、声部移动、借用和弦和转调建议。
 
+**在线试用：** <https://kariiita.github.io/fretboard-compass/>
+
 ![指板罗盘界面](docs/shots/readme-hero.png)
 
 ## 功能
